@@ -1,0 +1,63 @@
+@import url("https://fonts.googleapis.com/css2?family=Pontano+Sans&display=swap");
+
+body {
+  font-family: "Pontano Sans", sans-serif;
+}
+img {
+  width: auto;
+  height: 10em;
+  padding: 2em 2em 0 2em;
+}
+
+
+#steckbrief {
+  display: flex;
+  justify-content: center;
+  background-color: background: rgb(132,245,245);
+  background: linear-gradient(90deg, rgba(132,245,245,1) 0%, rgba(118,118,255,1) 50%, rgba(252,0,255,1) 100%);
+  padding-top: 2em;
+  margin-left: 15%;
+  margin-right: 15%;
+  height: 350px;
+  border-radius: 20px;
+}
+
+h1 {
+  text-align: center;
+}
+
+#Julian,
+#Leo,
+#David,
+#Manuel {
+  text-align: center;
+}
+
+#Julian:hover,
+#Leo:hover,
+#David:hover,
+#Manuel:hover {
+  transform: scale(1.2);
+}
+
+.name {
+  font-size: 20px;
+}
+
+form {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#friendrequestdiv {
+  display: flex;
+  position: relative;
+  justify-content: center;
+  padding-top: 2em;
+}
+
+#friendrequestlabel {
+  display: block;
+  padding-bottom: 1em;
+  font-size: 20px;
+}

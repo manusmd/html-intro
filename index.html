@@ -2,31 +2,8 @@
 <html lang="de">
   <head>
     <meta charset="UTF-8" />
+    <link rel="stylesheet" href="style.css" />
     <title>Meine Gruppe</title>
-    <style>
-      img {
-        width: auto;
-        height: 10em;
-        padding: 2em 2em 0 2em;
-      }
-
-      #steckbrief {
-        display:flex ;
-        justify-content: center;
-      }
-      h1{
-        text-align: center;
-      }
-
-      #Julian, #Leo, #David, #Manuel{
-        text-align: center;
-      }
-      form{
-        
-        margin-left: auto;
-        margin-right: auto;
-      }
-    </style>
   </head>
 
   <body>
@@ -37,7 +14,7 @@
           src="https://pbs.twimg.com/profile_images/996948456160641024/VXc2Fbge.jpg"
           alt="funny cat1"
         />
-        <p class="name">Julian Schumacher</p>
+        <p class="name"><strong>Julian Schumacher</strong></p>
         <p class="description">aus Gückingen</p>
       </section>
       <section id="Leo">
@@ -45,7 +22,7 @@
           src="https://www.4cats.de/assets/images/8/4cats-katzen-24-c6f0e098.jpg"
           alt="funny cat2"
         />
-        <p class="name">Leo Paulus</p>
+        <p class="name"><strong>Leo Paulus</strong></p>
         <p class="description">aus Regensburg</p>
       </section>
       <section id="David">
@@ -53,7 +30,7 @@
           src="https://image.winudf.com/v2/image/Y29tLmZ1bm55Y2F0Y29tcGlsYXRpb25fc2NyZWVuXzBfMTUxNzc2NDIzNl8wODA/screen-0.jpg?h=355&fakeurl=1&type=.jpg"
           alt="funny cat3"
         />
-        <p class="name">David Wobido</p>
+        <p class="name"><strong>David Wobido</strong></p>
         <p class="description">aus Berlin</p>
       </section>
       <section id="Manuel">
@@ -61,14 +38,18 @@
           src="https://ae01.alicdn.com/kf/HTB1ZkKqaMkLL1JjSZFpq6y7nFXaI/Funny-Cat-Costumes-Pirate-Suit-Cat-Clothes-Kitty-Kitten-Corsair-Halloween-Costume-Puppy-Suits-Dressing-Up.jpg_Q90.jpg_.webp"
           alt="funny cat3"
         />
-        <p class="name">Manuel</p>
+        <p class="name"><strong>Manuel Schmid</strong></p>
         <p class="description">aus Dürbheim</p>
       </section>
     </div>
-    <form>
-      <label for="friendrequest">Freundschaftsanfrage</label>
-      <input id="friendrequest" type="text" placeholder="Name" />
-      <button type="submit">submit</button>
-    </form>
+    <div id="friendrequestdiv">
+      <form>
+        <label id="friendrequestlabel" for="friendrequest"
+          >Freundschaftsanfrage</label
+        >
+        <input id="friendrequest" type="text" placeholder="Name" />
+        <button type="submit">submit</button>
+      </form>
+    </div>
   </body>
 </html>
